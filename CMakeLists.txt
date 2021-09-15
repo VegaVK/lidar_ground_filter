@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(pcl_test)
+project(lidar_grd_filt)
 
 add_compile_options(-std=c++11)
 
@@ -23,7 +23,7 @@ include_directories(
 )
 link_directories(${PCL_LIBRARY_DIRS})
 
-add_executable(${PROJECT_NAME}_node src/pcl_test_node.cpp src/pcl_test_core.cpp)
+add_executable(${PROJECT_NAME}_node src/lidar_grd_filt_node.cpp src/lidar_grd_filt_core.cpp)
 
 
 target_link_libraries(${PROJECT_NAME}_node

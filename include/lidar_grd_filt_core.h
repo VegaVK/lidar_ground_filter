@@ -11,7 +11,7 @@
 
 #include <sensor_msgs/PointCloud2.h>
 
-#define CLIP_HEIGHT 0.2 //截取掉高于雷达自身0.2米的点
+#define CLIP_HEIGHT 0.2 //
 #define MIN_DISTANCE 2.4
 #define RADIAL_DIVIDER_ANGLE 0.18
 #define SENSOR_HEIGHT 1.78
